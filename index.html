@@ -152,7 +152,7 @@
 						<option value="45">Szatén, normál, fotópapír (190g/m³)</option>
 						<option value="65">Művész, kreatív, kartonpapír (300g/m³)</option>
 					</select>
-					<input type="button" value="Kalkuláció" id="kalkulalGomb" />
+					<input type="button" value="Kalkuláció" id="kalkulalGomb" onclick="kalkulal()" />
 					<div id="valasz">
 						<p>A kalkuláció alapja:</p>
 						<ul>
@@ -162,12 +162,13 @@
 						<h2><span id="koltseg">?</span> Ft</h2>
 					</div>
 				</form>
-
+				
 			</div>
 		</div>
 	</div>
 
 	<script src="js/bootstrap.min.js"></script>
+	<script src="nyomtatas.js"></script>
 	<script src="style.css"></script>
 </body>
 
