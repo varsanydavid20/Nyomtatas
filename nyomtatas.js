@@ -1,6 +1,6 @@
 function kalkulal(){
    //Űrlapalapok
-    const szelesseg=document.getElementById('szelesseg').valua;
+    const szelesseg=document.getElementById('szelesseg').value;
     const magassag=document.getElementById('magassag').value;
     const papir=document.getElementById('papirtipus').value;
 
